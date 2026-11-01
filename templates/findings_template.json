@@ -1,0 +1,34 @@
+{
+  "item": "item-XX",
+  "verdict": "defective",
+  "views_inspected": ["view-01", "view-02"],
+  "notes": "这里写判定依据与存疑之处：哪些视角看到、哪些没看到同位置异常、哪些是反光而非缺陷。",
+  "observations": [
+    {
+      "view": "view-01",
+      "type": "scratch",
+      "subtype": "abrasion",
+      "severity": "moderate",
+      "confidence": 0.85,
+      "x": 0.63,
+      "y": 0.34,
+      "region": "表面右半部",
+      "description": "三道平行浅划痕，长约 40px，方向近垂直，边界弥散，与产品结构无关。",
+      "evidence": ["work/item-XX/view-01/cands/cand-01.jpg"],
+      "defect_group": ""
+    },
+    {
+      "view": "view-01",
+      "type": "chip",
+      "subtype": "pit",
+      "severity": "minor",
+      "confidence": 0.62,
+      "x": 0.28,
+      "y": 0.71,
+      "region": "表面左下角",
+      "description": "孤立小暗斑，约 8x8px，边界柔和，内部偏暗。",
+      "evidence": ["work/item-XX/view-01/cands/cand-04.jpg"],
+      "defect_group": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "items": {
+    "item-p10": {
+      "views": [
+        "view-01",
+        "view-02"
+      ],
+      "defects": []
+    },
+    "item-p17": {
+      "views": [
+        "view-01",
+        "view-02",
+        "view-03",
+        "view-04",
+        "view-05"
+      ],
+      "defects": [
+        {
+          "id": "g1",
+          "type": "scratch",
+          "view": "view-01",
+          "x": 0.79,
+          "y": 0.52,
+          "region": "键帽右半部"
+        },
+        {
+          "id": "g2",
+          "type": "scratch",
+          "view": "view-01",
+          "x": 0.62,
+          "y": 0.62,
+          "region": "键帽右半部"
+        }
+      ]
+    }
+  }
+}

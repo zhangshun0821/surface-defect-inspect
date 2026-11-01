@@ -1,0 +1,74 @@
+{
+  "item": "item-p17",
+  "verdict": "defective",
+  "views_inspected": [
+    "view-01",
+    "view-02",
+    "view-03",
+    "view-04",
+    "view-05"
+  ],
+  "notes": "view-01 键帽右半部可见多道细长划痕，右端靠近边缘处另有一片较宽的擦痕；其余视角在同一部位未见对应异常。",
+  "observations": [
+    {
+      "view": "view-01",
+      "type": "scratch",
+      "subtype": "scratch",
+      "severity": "moderate",
+      "confidence": 0.9,
+      "x": 0.79,
+      "y": 0.52,
+      "region": "键帽右半部",
+      "description": "一条近垂直的细长亮色划痕，长约 120px，边界锐利，与键帽结构无关。",
+      "evidence": [
+        "work/item-p17/view-01/cands/cand-03.jpg"
+      ],
+      "defect_group": ""
+    },
+    {
+      "view": "view-01",
+      "type": "scratch",
+      "subtype": "abrasion",
+      "severity": "minor",
+      "confidence": 0.78,
+      "x": 0.62,
+      "y": 0.62,
+      "region": "键帽右半部",
+      "description": "一组约 5 道平行细擦痕，呈拉丝状，长约 60px。",
+      "evidence": [
+        "work/item-p17/view-01/cands/cand-01.jpg"
+      ],
+      "defect_group": ""
+    },
+    {
+      "view": "view-01",
+      "type": "chip",
+      "subtype": "pit",
+      "severity": "minor",
+      "confidence": 0.55,
+      "x": 0.51,
+      "y": 0.64,
+      "region": "键帽中部偏左",
+      "description": "一小片边界弥散的暗色凹痕，约 40x30px，疑似表层磨损而非材料缺失。",
+      "evidence": [
+        "work/item-p17/view-01/cands/cand-04.jpg"
+      ],
+      "defect_group": ""
+    },
+    {
+      "view": "view-03",
+      "type": "scratch",
+      "subtype": "scratch",
+      "severity": "moderate",
+      "confidence": 0.8,
+      "x": 0.22,
+      "y": 0.49,
+      "region": "键帽右半部",
+      "description": "同一道近垂直细划痕在 view-03 中于键帽另一侧可见，走向与 view-01 一致。",
+      "evidence": [
+        "work/item-p17/view-03/cands/cand-01.jpg"
+      ],
+      "defect_group": ""
+    }
+  ]
+}
